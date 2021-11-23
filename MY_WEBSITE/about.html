@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="icon" type="image/png" href="img/logo.png">
+        <title>Phat Lino</title>
+        <link rel="stylesheet" href="css/about.css">
+        <meta charset="UTF-8">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Pacifico&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <div class="infor1">
+                <p><b id="title1">ABOUT</b><b id="title2">ME !</b></p>
+                <h1>Nguyễn Đức Phát</h1>
+                
+                <div class="profile">   
+                    <p><img id="avt" src="img/P.jpg"></p>
+                    <p><img id="tich" src="img/tich-xanh.png"></p>
+                </div>   
+            </div>
+            <div class="social">
+                <p><b id="mail"><img src="img/mail.png">Phatlongtoan@gmail.com</b><b id="fb"><img src="img/logoFB.png">facebook.com/Phat.Lino.2K2</b></p>
+                <p><b id="sdt"><img src="img/telephone.png">0834-567-890</b><b id="msg"><img src="img/msg.png">messenger.com/Phat.Lino.2K2</b></p>
+            </div>
+            <footer>
+                PhatLino © 2021
+            </footer>
+        </header>
+       
+        <div id="sideNav">
+            <nav>
+            <ul>
+                <li><a href="/index.html">Home</a></li>
+                <li><a href="/about.html">About Me</a></li>
+                <li><a href="/game.html">Game</a></li>
+                <li><a href="/contact.html">Contact</a></li>
+            </ul>
+            </nav>
+        </div>
+        <div id="menuBtn">
+            <img src="img/img_more/menu.png" id="menu">
+        </div>
+        <script type="text/javascript">
+            var menuBtn = document.getElementById("menuBtn")
+            var sideNav = document.getElementById("sideNav")
+            var menu = document.getElementById("menu")
+            
+            sideNav.style.left="-220px";
+            
+            menuBtn.onclick = function(){
+                if(sideNav.style.left=="-220px"){
+                    sideNav.style.left="0"
+                    menu.src="img/img_more/close.png";
+                }
+                else{
+                    sideNav.style.left="-220px";
+                    menu.src="img/img_more/menu.png";}
+            }
+        </script>
+
+    </body>
+</html>

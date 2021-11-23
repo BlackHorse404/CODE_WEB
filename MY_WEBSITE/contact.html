@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Phat Lino</title>
+        <link rel="icon" type="image/png" href="img/logo.png">
+        <link rel="stylesheet" href="css/contact.css">
+    </head> 
+    <body>
+        <header>
+            <div class="choice">
+                <a href ="/">
+                    <img src="img/logo.png" alt="logo Phat" class="logo">
+                </a>
+                <ul class="menu">
+                    <li><a href="/index.html"><b>Home</b></a></li>
+                    <li><a href="/about.html"><b>About Me</b></a></li>
+                    <li><a href="/game.html"><b>Game</b></a></li>
+                    <li><a href="/contact.html"><b>Contact</b></a></li>
+                </ul>
+            </div>
+            <!-- public -->
+            <div class="public">
+                <a target="_blank" href="https://www.facebook.com/Phat.Lino.2K2"class="logoFB">
+                    <img src="img/logoFB.png" alt="logo FaceBook">
+                </a>
+                <a target="_blank" href="#"class="logoIns">
+                    <img src="img/insta.png" alt="logo Instagram">
+                </a>
+                <a target="_blank" href="#"class="logoTw">
+                    <img src="img/tw.png" alt="logo Twitter">
+                </a>
+            </div>
+            <div id="clock">
+                <p class ="time"><script type="text/javascript">
+                var monthNames = new Array("một","hai","ba","bốn","năm","sáu","bảy","tám","chín","mười","mười một","mười hai");
+                var monthNames = new Array("1","2","3","4","5","6","7","8","9","10","11","12");
+                var dayNames = new Array("Sunday -","Monday -","Tuesday -"," Wednesday -"," Thursday-","Friday -","Saturday -")
+                var now = new Date();
+                thisYear = now.getYear();
+                thisDay = dayNames[now.getDay()];
+                if(thisYear < 1900) {thisYear += 1900}; 
+                document.write("" + thisDay +""+""+" "+ now.getDate() + "/" + monthNames[now.getMonth()] + "/" + thisYear);
+                </script></p>
+                <!-- <img src="img/calendar.png" alt="calendar" class="calendar"> -->
+            </div>
+
+            <div class="ContentFootter">
+                <h1 class="heading1">Contact Information</h1>
+                <div class="content">
+                    <p><a href="mailto:phatlongtoan@gmail.com">Phatlongtoan@gmail.com</a></p>
+                    <p><a href="https://www.facebook.com/Phat.Lino.2K2" target="_blank">Phat.Lino.2K2</a></p>
+                    <p>1900-123-456</p>
+                </div>
+                <div class="logo">
+                    <img src="img/telephone.png" alt="telephone" class="telephone">
+                    <img src="img/mail.png" alt="mail" class="mail">
+                    <img src="img/logoFB.png" alt="facebook" class="facebook">
+                </div>
+            </div>
+        </header>
+        
+    </body>
+</html>

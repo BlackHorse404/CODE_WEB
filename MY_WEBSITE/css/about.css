@@ -1,0 +1,185 @@
+*{
+    margin:0;
+    padding:0;
+}
+header{
+    height: 100vh;
+    background:linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,1)),url(/img/bg.gif);
+    background-position: center;
+    background-size: cover;
+    transform: 1s;
+}
+#sideNav{
+    width: 220px;
+    height: 100vh;
+    left: 0;
+    bottom: 0;
+    position: fixed;
+    background: rgba(0,0,0,0.8);
+    z-index: 2;
+    transition: 1s;
+}
+nav ul li{
+    list-style: none;
+    padding: 5px 30px;
+    text-align: center;
+    top:40px;
+    position: relative ;
+    font-size: 20px;
+    border-bottom: 2px solid aqua;
+    margin:38px;
+    transition: 1s;
+    border-radius: 5px;
+}
+nav ul li:hover{
+    background: aqua;  
+    transition: 1s; 
+    border-radius: 10px;
+}
+nav ul li:hover a{
+    color:black; 
+    transition: 1s;
+}
+nav ul li a{
+    text-decoration: none;
+    color:white;
+}
+#menuBtn{
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    position: fixed;
+    right: 30x;
+    top: 20px;
+    border-radius: 3px;
+    z-index: 3;
+    cursor: pointer;
+    background-color:black;
+    transition: 2s;
+}
+
+#menuBtn img{
+    width: 20px;
+    margin-top:15px ;
+}
+.infor1{
+    text-align: center;
+    position:absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    font-size: 15px;
+    padding: 0;
+    z-index:1;
+}
+.infor1 p #avt{
+    position:relative;
+    top:150px;
+    height: 110px;
+    left:16px;
+    border-radius: 100%;
+    border: 2px solid aqua;
+    z-index: 1;
+}
+.infor1 h1{
+    position: relative;
+    top:340px;
+    color: white;
+    font-size: 30px;
+    font-family: 'Pacifico', cursive;
+}
+#tich{
+    height:30px;
+    position: relative;
+    left:50px;
+    position:relative;
+    top:123px;
+    z-index: 3;
+}
+.infor1 h1::selection{
+    color:rgb(214, 218, 8);
+}
+
+#title1{
+    position: relative;
+    top:20px;
+    color:lime;
+    font-family: 'Pacifico', cursive;
+    margin: 0 10px;
+}
+#title2{
+    position: relative;
+    top:20px;
+    color:tomato;
+    font-family: 'Pacifico', cursive;
+}
+
+.social{
+    color:white;
+    text-align: center;
+}
+
+p #mail,#fb{
+    color:white;
+    position: relative;
+    top:470px;
+    left:-60px;
+}
+p #sdt,#msg{
+    color:white;
+    position: relative;
+    top:480px;
+    left:-101px;
+  
+}
+#mail img{
+    height:30px;
+    position: relative;
+    top:6px;
+    padding:0px 10px;
+}
+p #mail{
+    padding:150px;
+}
+#fb img{
+    height:27px;
+    position: relative;
+    top:6px;
+    padding:0px 10px;
+}
+#sdt img{
+    height:27px;
+    position: relative;
+    top:6px;
+    padding:0px 10px;
+}
+p #sdt
+{
+    padding-right:240px;
+    padding-left:240px;
+}
+#msg img{   
+    height:36px;  
+    position: relative;
+    top:12px;
+    padding:0px 5px;
+}
+p #sdt::selection{
+    color:aqua;
+}
+p #mail::selection{
+    color:aqua;
+}
+p #fb::selection{
+    color:aqua;
+}
+p #msg::selection{
+    color:aqua;
+}
+footer
+{
+    color:gray;
+    text-align: center;
+    position: relative;
+    top:80%;
+}

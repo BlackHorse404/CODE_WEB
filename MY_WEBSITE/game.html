@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="icon" type="image/png" href="img/logo.png">
+        <title>Phat Lino</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="css/game.css">
+    </head>
+    <body>
+        <h1>Comming soon...</h1>
+        <script language="" type="text/javascript">
+            var monthNames = new Array("một","hai","ba","bốn","năm","sáu","bảy","tám","chín","mười","mười một","mười hai");
+            var monthNames = new Array("1","2","3","4","5","6","7","8","9","10","11","12");
+            var dayNames = new Array("CN -","THỨ 2 -","THỨ 3 -","THỨ 4 -","THỨ 5 -","THỨ 6 -","THỨ 7 -")
+            var now = new Date();
+            thisYear = now.getYear();
+            thisDay = dayNames[now.getDay()];
+            if(thisYear < 1900) {thisYear += 1900}; 
+            document.write("" + thisDay +""+""+" "+ now.getDate() + "/" + monthNames[now.getMonth()] + "/" + thisYear);
+        </script>
+        <button><a href="/index.html">Go Home</a></button>
+        <!-- <div class="btn">
+            <a  href="fb.com" ><span></span>Hello</a>
+        </div> -->
+        <script id="source">
+            document.writeln("Designed By Phat Lino");
+        </script>
+    </body>
+</html>
